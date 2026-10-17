@@ -23,7 +23,7 @@ services. A REST API:
 | `POST` | Create a resource | `201 Created` |
 | `PUT` | Replace a resource completely | `200 OK` or `204 No Content` |
 | `PATCH` | Update part of a resource | `200 OK` or `204 No Content` |
-| `DELETE` | Remove a resource | `204 No Content` |
+| `DELETE` | Remove a resource | `204 No Content` |         
 
 ## Example API
 
@@ -389,3 +389,5 @@ Always check `response.ok` or `response.status`.
 - [ ] Document pagination, filtering, and sorting.
 - [ ] Add automated tests for success and error cases.
 - [ ] Publish an OpenAPI specification for client generation and validation.
+
+
